@@ -1,0 +1,28 @@
+display: flex (nos itens do container)
+
+flex-direction: column, column-reverse, row (em linha)
+
+justify-content: flex-start flext-end center space-around space-between
+alinha os elementos dentro do container no main axis (eixo principal)
+
+align-itens: center (cross axis) alinha vertical no meio do espaço
+
+gap: (px) espaço entre os elementos dentro do container (main)
+
+flex-wrap: quebra de linha de itens
+
+align-self: alinhas um item fora do alinhamento anterior
+
+flex-grow: estica o elemento no espaço vazio (pega o conteúdo excedente)
+
+order: ordem de cada elemento (quando em um, precisa estar em todos)
+negativo (menor), positivo (maior)
+aplicando para todos os elementos, eles sao divididos de forma igualiaria
+
+nav: menu de navegação
+
+align-itens alinha vertical no meio do espaço
+
+
+
+spam para alterar cor de palavra específica

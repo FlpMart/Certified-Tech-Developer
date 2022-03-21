@@ -1,0 +1,38 @@
+fazer uma div dentro da div
+
+border (solid, doted) px e cor
+border-radius: borda arredondada
+box-sizing (content box, border box) soma os valores
+margin (borda externa) -top, -bottom, -left, -right
+padding (borda interna)
+ 
+universal:
+box-sizing: border-box
+pading: 0
+margin0
+
+
+
+left, right, top, bottom (posicionamento na pagina)
+
+position: cria um novo fluxo, sobrepoe os outros elementos
+
+margin-bottom: separa os elementos
+
+
+USAR PADDING NA MESA DE TRABALHO
+
+
+CENTRALIZAR ELEMENTO DE BLOCO:
+margin-left: auto
+margin-right: auto
+
+
+BORDA ARREDONDADA:
+border-radius: px
+
+DIV PAI:
+position relative pai
+position absolute filho
+
+DENTRO DA CLASS ESPECIFICAR O ELEMENTO

@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Oswald:wght@300;400;700&family=Roboto:wght@400;700&display=swap');
+
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body{
+  margin: 0 0 160px; /* altura do seu footer */
+}
+
+.area__desconto {
+  width: 100vw;
+  height: 4vh;
+  display: flex;
+  align-items: center;
+
+  background: #D1891C;
+}
+
+.area__desconto span {
+  padding-left: 20px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+
+  color: #333333;
+}
+
+.cabecalho {
+  background-color: #00669F;
+  height: 10vh;
+  width: 100vw;
+  padding: 20px;
+
+  display: flex;
+  align-items: center;
+
+  box-shadow: 0px 10px 7px rgb(0 0 0 / 25%);
+}
+
+.cabecalho h1 {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+
+  color: #FFFFFF;
+}
+
+.cards {
+  justify-content: center;
+  gap: 2%;
+  display: flex;
+  flex-direction: row;
+  margin: 5% 0;
+
+}
+
+.cards__card {
+  position: relative;
+  width: 350px;
+  height: 600px;
+  background: #F3F3F3;
+  border-radius: 4%;
+  border: 1px solid #000;
+
+
+}
+
+.card__img__top {
+  width: 100%;
+}
+.button__like__img{
+  position: absolute;
+  top: 2%;
+  left: 2%;
+  height: 30px;
+  height: 30px;
+}
+.card__icon {
+  width: 100%;
+  display: flex;
+  transform: translate(0, -50%);
+  justify-content: center;
+}
+
+.card__img__icon {
+  height: 40%;
+  width: 40%;
+  border-radius: 50%;
+}
+
+.cards__card__sobre {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 5% 5%;
+
+
+}
+
+.cards__card__sobre h2 {
+  margin-top: -20%;
+  margin-bottom: 10%;
+  text-align: center;
+
+}
+
+.cards__card__sobre p {
+  font-size: 18px;
+  text-align: center;
+}
+
+.cards__card__area__btn {
+  display: flex;
+  justify-content: center;
+
+}
+
+.card__btn {
+  display: flex;
+  justify-content: center;
+
+}
+
+.card__btn a {
+  text-decoration: none;
+  background-color: #00669F;
+  padding: 5%;
+  color: #fff;
+  margin: 5%;
+}
+
+footer {
+  background-color: #00669F;
+  padding: 0 2%;
+  position: absolute;
+  bottom: 0;
+  height: 30px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 5px;
+}
+
+@media (max-width: 480px){
+    
+}
