@@ -225,15 +225,20 @@ main {
     color: white;
 }
 
+.btn:hover {
+    background: #001D2D;
+    cursor: pointer;
+}
+
 
 /* Footer */
 
 .background--footer {
-    
+    position: absolute;
     width: 100%;
     height: 10%;
     left: 0;
-    bottom: 0;
+    top: 220%;
 
     display: flex;
     flex-direction: row;

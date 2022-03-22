@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Oswald:wght@300;400;700&family=Roboto:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/adicionar.css" class="css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="discount">
+
+        <span>Descontos de 20%</span>
+
+    </div>
+
+    <header class="background--header">
+
+        <a href="index.html"><img src="img/Logo.png" alt="Logo da Página" class="logo"></a>
+
+        <span>Nome da Loja</span>
+
+    </header>
+
+    <div class="nav">
+
+        <ul>
+            <li> <a href="adicionar.html">Adicionar</a> </li>
+            <li> <a href="detail.html">Detail</a> </li>
+            <li> <a href="contato.html">Contato</a> </li>
+            <li> <a href="registro.html">Registro</a> </li>
+            <li> <a href="login.html">Login</a> </li>
+        </ul>
+
+    </div>
+
+    <main>
+
+        <section class="container">
+
+            <h2>Adicionar seu Super-Herói</h2>
+            <p>Adicione seu personagem favorito completando as informações</p>
+
+            <div class="forms">
+                <div class="form">
+
+                    <label for="nome">*Nome</label>
+                    <input class="input" type="text" name="nome" id="nome" placeholder="Nome" required>
+
+                    <label for="date">Data de Nascimento</label>
+                    <input class="input" type="date" name="date" id="date" placeholder="">
+
+                    <label for="description"></label>
+                    <textarea class="input" name="description" id="description" cols="30" rows="10"></textarea>
+
+                </div>
+
+                <div class="form2">
+
+
+                    <label for="especie">*Espécie</label>
+                    <select class="input" name="especie" id="especie">
+
+                        <optgroup class="input" label="Espécie">
+                            <option value="humano">Humano</option>
+                            <option value="alien">Alienígena</option>
+                            <option value="animal">Animal</option>
+                            <option value="inseto">Inseto</option>
+                        </optgroup>
+                    </select>
+
+                    <label for="file">Adicionar foto</label>
+                    <input class="file" type="file" name="file" id="file" placeholder="">
+
+
+                    <div class="poderes">
+
+                        <label for="poderes">Poderes</label>
+
+                        <label for="poderes-voar">
+                            <input type="checkbox" name="poderes" id="poderes-voar" value="voar"> Voar
+                        </label>
+
+                        <label for="poderes-inteligencia">
+                            <input type="checkbox" name="poderes" id="poderes-inteligencia" value="inteligncia">
+                            Super-Inteligência
+                        </label>
+
+                        <label for="poderes-raio">
+                            <input type="checkbox" name="poderes" id="poderes-raio" value="raio"> Visão de Raio Laser
+                        </label>
+
+                        <label for="poderes-rico">
+                            <input type="checkbox" name="poderes" id="poderes-rico" value="rico"> Super-Rico
+                        </label>
+
+                    </div>
+
+                    <hr size="3">
+
+                    <div class="personagem">
+
+                        <label for="personagem">Tipos de Personagem</label>
+
+                        <label for="heroi-heroina">
+                            <input type="radio" name="heroi" id="espDev-front" value="heroi"> Herói / Heroína
+                        </label>
+
+                        <label for="vilao-vila">
+                            <input type="radio" name="vilao" id="vilao-vila" value="vilao"> Vilão / Vilã
+                        </label>
+
+                    </div>
+
+
+
+                </div>
+            </div>
+
+            <section class="btn">
+
+                <input class="registrar--btn" type="submit" value="Adicionar">
+
+            </section>
+
+        </section>
+
+    </main>
+
+    <footer class="background--footer">
+
+        <span>Todos os direitos reservados a FRONT END 1</span>
+
+    </footer>
+
+
+</body>
+
+</html>

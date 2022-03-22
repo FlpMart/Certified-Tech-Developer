@@ -1,0 +1,37 @@
+## PROTOCOLOS
+
+- Um rendereço IP é um número exclusivo que representa 
+a localização do dispositivo
+
+- IP significa "Protocolo de internet" que representa uma série de 
+regras e formatos pelos quais os dados sao enviados pela rede.
+Estes endereços podem ser IPv4 e IPv6.
+
+Total IPv4: 32bits
+
+## O que é endereço MAC:
+
+- Um endereço MAC ou endereço físico é um número exclusivo e não repetitivo
+que identifica um único dispositivo no mundo.
+- Todos os dispositivos têm um endereço MAC, o qual é definido pelo fabricante
+na hora da criação do dispositivo de conexão. É composto por 48 bits, os quais sao 
+alfanuméricos, que por sua vez está divulgados em dois segmentos, onde um identifica o fabricante e o outro, o dispositivo.
+
+## IP Privado x IP público:
+
+- IP Privado: ips usado dentro da rede doméstica
+*Alfance é local e restrito a rede atual
+*É utilizado para se comunicar dentro da rede
+*São gratuitos
+*Pode ser localizado utilziando o comando ipconfig
+*range: 10.0.0.0 - 10.255.255.255
+172.16.0.0
+
+
+- IP Público: IP utilizado como localizador na internet 
+*Alcance global
+*É utilziado para se comunicar fora da rede
+*Tem um custo associado
+*Deve ser pesquisado em um motor de buscas como google
+*Exceto os endereços IPprivados, os demais endereços IP são públicos
+

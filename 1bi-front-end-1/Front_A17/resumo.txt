@@ -1,0 +1,37 @@
+# AULA 17
+
+## PSEUDO-SELETORES
+
+## Pseudoclasses
+
+:link /*Não visitado pelo usuário e com href*/
+:active /*Acionado quando o usuário clica no elemento*/
+:visited /*Links visitados pelo usuário*/
+:invalid /*ex: email invalido no input*/
+:focus /*Quando o input está selecionado*/
+:hover /*Quando passa o mouse sobre*/
+
+
+## Pseudoelementos
+
+(Utilizado em sua maioria em textos)
+::before /*Insere um elemento antes de outro elemento*/
+::after /*Insere um elemento depois de outro elemento*/
+::first-letter /* Modifica a primeira letra do elemento*/
+::selection /*Quando o usuário seleciona o texto*/
+::placeholder /*Modifica o texto interno do input*/
+(content: "Continua...")
+
+
+## Outros exemplos de SELETORES
+
+- X + Y: seleciona o elemento imediato após o primeiro elemento
+
+- x > y : seleciona os filhos diretos
+
+- x ~ y : qualquer elemento y, desde que ele venha depois de um elemento x
+
+
+
+input file
+linha para separar: hr
